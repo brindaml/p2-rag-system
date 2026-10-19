@@ -104,7 +104,9 @@ TODO: write what the practice-query intervals let you claim.
 ## 2. Stage 1 - cited answers on the 12 shared questions
 
 <!-- p2:begin answers -->
-_No answers files yet: run `uv run p2 answer --corpus shared --system NAME`, then `uv run p2 score`._
+| Label | System | Verified (in) | 95% interval | not_found (in) | Declined (out) | 95% interval | Quotes found |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| rerank | rerank | 8 of 8 (100%) | [0.676, 1.000] | 0 of 8 (0%) | 4 of 4 (100%) | [0.510, 1.000] | 12 of 12 |
 <!-- p2:end answers -->
 
 Which system answered, and why that one?
@@ -259,7 +261,9 @@ Every trace in traces/ that records a Claude call:
 
 | Trace | System | Spans | Claude calls | Saved | Input tokens | Output tokens | Seconds | Input per span | Output per span | Seconds per span |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| traces/answers-rerank.jsonl | rerank | 12 | 24 | 4 | 162,094 | 4,341 | 135.5 | 13,508 | 362 | 11.3 |
 | traces/shared-practice-rerank.jsonl | rerank | 20 | 20 | 2 | 184,323 | 2,174 | 98.4 | 9,216 | 109 | 4.9 |
+| traces/shared-test-rerank.jsonl | rerank | 40 | 40 | 0 | 375,262 | 4,082 | 186.7 | 9,382 | 102 | 4.7 |
 
 A span is one query of a run, one question of an answers file, or one claim of a judged file. A saved reply costs nothing now, so it counts the tokens and the seconds of the call that made it.
 
@@ -280,6 +284,9 @@ Systems that do not call Claude, from traces/retrieval/ on the machine that last
 | traces/retrieval/shared-practice-bm25.jsonl | bm25 | 20 | 0.05 | 2.6 |
 | traces/retrieval/shared-practice-dense.jsonl | dense | 20 | 0.17 | 8.6 |
 | traces/retrieval/shared-practice-hybrid.jsonl | hybrid | 20 | 0.27 | 13.5 |
+| traces/retrieval/shared-test-bm25.jsonl | bm25 | 40 | 0.11 | 2.7 |
+| traces/retrieval/shared-test-dense.jsonl | dense | 40 | 0.34 | 8.5 |
+| traces/retrieval/shared-test-hybrid.jsonl | hybrid | 40 | 0.52 | 13.0 |
 <!-- p2:end stretch-cost -->
 
 ### The grep agent (option 5)
