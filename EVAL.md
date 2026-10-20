@@ -25,7 +25,11 @@ The minimum detectable difference is the smallest gap this many queries could re
 
 For each of `dense`, `hybrid` and `rerank`, one or two sentences: the embedding model, how documents were chunked, what was fused and how, how many candidates the reranker saw, and anything you changed from the 12 and 13 lab code.
 
-TODO: describe your three systems.
+For dense, the embedding model was the bge small because it was measured to be stronger. The documents were chunked into 300 words chunks. Nothing was fused, there was no reranker, and the changes are that it is scoring the actual chunks instead of the article. The document is as good as its best chunk. 
+
+For hybrid, bge small was reused, the chunking was the same, and what was fused was bm25 and dense. They were fused with the reciprocal rank fusion, where it gets a hybrid score from both its bm25 rank and dense rank, taken as a reciprocal of 1/(60+rank) and those are added together, and then are sorted from that. There was no reranker, and the changes from the lab were that the ranks are used in a dict instead of a list.index, making it faster.
+
+For rerank, there wasn't a specific embedding model because it just reranked from hybrid, so bm25 and bge small. The chunk was done the same way with 300 word chunks, nothing was fused because it just used hybrid's fused rankings. The reranker candidates  were the top 20 from hybrid, where everything below the top 20 was kept in hybrid's original order. Claude is the one that reorders the top 20. The changes were that the schema required all numbers to be between 1-20 and that anything invalid went back to the hybrid's original order.
 
 ### Practice queries (20)
 
@@ -97,7 +101,11 @@ Which differences are distinguishable from zero and which are not?
 What is the minimum detectable difference at 20 queries, and what does that say about any gap smaller than it?
 Which claim from lecture 12 or 13 did your numbers support, and which did they leave open?
 
-TODO: write what the practice-query intervals let you claim.
+The differences that are distinguishable from zero are that rerank is higher than hybrid and dense, and rerank is also higher than bm25 on MRR@10 and nDCG@10. It is not distinguishable from bm25 on recall@10. bm25, dense, and hybrid cannot be told apart from each other. 
+
+The minimum detectable difference at 20 queries ranges from 0.166 to 0.415. This means that anything smaller than that will be hard to detect with just 20 queries, they still might exist but you would need more than 20 queries to prove this.
+
+Lecture 12 shows that bm25 and dense will miss a couple of predictable queries, which is what happened. All of the paraphrase queries for bm25 and most of the identifier queries for dense were missed, but the sample size was small. Additionally lecture 13 showed that an LLM reranker can improve rankings, which is what happened. However, lecture 13 said that fusion helps with a weaker partner and hurts a strong retriever, but for these tests hybrid wasn't distinguishable from bm25 and dense, leaving this open.
 
 ---
 
@@ -116,7 +124,15 @@ Then read three in-corpus answers that `uv run p2 verify` passed.
 For each one, open the cited chunk and say whether the quote really supports the claim next to it.
 The check proves a quote is a real piece of the chunk and cannot prove that it supports the claim, so this reading is the part only you can do.
 
-TODO: write your answer choices and your three-answer audit.
+The system that answered was rerank, because it was the system that did the best out of all of them. 
+I did not change anything in prompts/answer.txt, so everything 8/8 were verified and 4/4 were declined. 
+
+For a02, the quote really does support the claim next to it.
+For a04, the quote really does support the claim.
+For a07, the quote really does support the claim as well.
+
+TODO: double-check the audit before submitting: cover both claims in a04 and a07, and give a reason for each verdict.
+
 
 ---
 
