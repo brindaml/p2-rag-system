@@ -1,0 +1,20 @@
+# Learn with Pokémon: Typing Adventure
+
+Learn with Pokémon: Typing Adventure
+
+Learn with Pokémon: Typing Adventure, known in Japan as Battle & Get! Pokémon Typing DS (Japanese: バトル&ゲット！ポケモンタイピングDS, Hepburn: Batoru & Getto! Pokemon Taipingu DS) is an educational typing video game developed by Genius Sonority and published by The Pokémon Company and Nintendo for the Nintendo DS. A spin-off of the Pokémon series, it was released in Japan in April 2011 Europe in September 2012 and Australia in January 2013. The game is notable for being one of the few Pokémon titles released in English to not release in North America.
+
+Gameplay
+Pokémon: Typing Adventure is an educational typing game that uses the Nintendo Wireless Keyboard peripheral bundled with the title. Players assume the role of an amateur typist who must travel through various courses where they encounter Pokémon who are captured by correctly typing their names as they appear. As a member of the Elite Typists' Club under the guidance of Professor Quentin Werty (木内エイジ, Kiuchi Eiji) and fellow member Paige Down (青葉キイ, Aoba Key), they must investigate and collect the game's 403 different Pokémon creatures, some of which are bosses at the end of certain levels. Players may earn medals for various achievements, including capturing specific Pokémon, not making any typographical errors, or scoring a certain number of points.
+
+Release
+Promotion
+Pokémon: Typing Adventure was first revealed at Nintendo Conference 2010, along with a tentative release date the following year in Japan. Company President and CEO Satoru Iwata presented the game to investors in January 2011, along with the Bluetooth-enabled Nintendo Wireless Keyboard accessory that would accompany the game, declaring that "This is not software that's targeted at just kids, as finishing it is challenging even for adults who are learning to touch type." A European release was confirmed the following year in June 2012, with support for English, French, Italian, German and Spanish languages.
+
+Bundle
+The game is packaged with the Bluetooth Nintendo Wireless Keyboard peripheral. The keyboard is a Bluetooth-enabled keyboard that can be used with many other devices, not just the game itself. Originally, all releases originally came with a white keyboard; a second bundle featuring a black keyboard was released exclusively in Japan in November 2011.
+The keyboard layout differs between the localizations: Japanese, English, Italian, and Spanish versions use QWERTY, the German version uses QWERTZ, and the French version uses AZERTY.
+
+Reception
+In Japan, Battle & Get! Pokémon Typing DS topped the sales charts in its first week, selling 59,363 copies. The game continued to sell well months later, still being on the top ten charts for the week commencing June 13, and would go on to sell a total of 201,723 copies in the region by the end of 2011, becoming the 56th most-bought title that year. Japanese Weekly Famitsu magazine granted it a 32 out of 40 total score based on individual reviews of 8, 8, 8, and 8, earning the publication's Gold Award.
+Pokémon: Typing Adventure game received generally mixed reviews in the West, with a 69% aggregate score by GameRankings. While Official Nintendo Magazine found the core gameplay to be "repetitive" with graphics that were only "functional at best", the reviewer remarked that the lessons were effective, declaring that "Learn With Pokémon: Typing Adventures may not be a big hitter like the RPGs, but it comfortably sits alongside Pokémon Conquest in our Top 5 Pokémon Spin-Offs, a list we can now confidently type out in 12 seconds flat." However, the keyboard accessory was criticized by Games™, who remarked that "As peripherals go, the DS keyboard is right up there with the PS3 in-car adapter and the N64 dance mat in terms of actual usefulness." The magazine also felt that an intimate knowledge of individual Pokémon was required to gain speed bonuses based on identifying them by silhouette or cries, in addition to being able to correctly spell some of their names.

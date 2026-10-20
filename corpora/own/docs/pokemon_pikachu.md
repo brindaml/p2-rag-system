@@ -1,0 +1,18 @@
+# Pokémon Pikachu
+
+Pokémon Pikachu
+
+Pokémon Pikachu, also known as Pocket Pikachu (ポケットピカチュウ) in Japan, is a limited series of two handheld Pokémon digital pets (similar to Tamagotchi) featuring the famous yellow electric-type Pokémon, Pikachu. It debuted on March 27, 1998, in Japan, on November 2, 1998 in North America, and in December 1998 in Europe.
+
+Gameplay
+The first release, a yellow unit resembling a Game Boy, features a black and white LCD screen used to display animations of Pikachu's activities. Gameplay differs slightly from other portable virtual pets in that Pikachu does not need to be fed, watered, or cleaned up after. Instead, the Pokémon Pikachu unit can be strapped to a belt and used as a pedometer. With every twenty steps it counts, the Pokémon Pikachu credits its user with one watt, a virtual currency used to buy Pikachu presents. Additional activities become available as the player spends more time with their virtual Pikachu. If neglected, Pikachu will express anger and eventually refuse to recognize the player.
+
+The second release, Pokémon Pikachu 2, is available in six different variants. In the United States, the device was produced with new text, 'GS' and 'Pokémon Pikachu 2'. The shell is silver with a sparkle effect and has a Pikachu silhouette. In Japan, there were four different shells released. The standard release was a see-through shell with 'Pocket Pikachu' and 'Color' on the screen, with white buttons and a Pikachu silhouette (different than the USA release). Additionally, there was a silver/white 'Pearl' shell with a Pikachu silhouette sold at Pokémon Centers, a clear blue shell sold at Ito Yokado 7-Eleven, and a limited edition solid 'Italian blue' shell with white buttons sold at Halomac. In Europe, the device was similar to the Japanese release with 'Pocket Pikachu' and 'Color' on the screen. It featured a transparent shell with black buttons and a Pikachu silhouette (the same as the USA release).
+The Pokémon Pikachu 2 features more animations. It also features an infrared port for interacting with Pokémon Gold, Silver, and Crystal via the Mystery Gift option, which utilizes the Game Boy Color's built-in infrared communication port. This allows players to trade watts for items in the Game Boy games. Although there is a limitation on how much the Mystery Gift mode can be used between Game Boy cartridges, Pokémon Pikachu's only limit is that of available watts (and it is region locked). Watts can also be sent to other Pokémon Pikachu 2 units.
+
+Other models
+Pokémon and its character Pikachu are not the only media franchises that are used by this Nintendo-made device. Sakura Taisen, a media franchise of SEGA and licensed by RED Entertainment released a virtual-pet with pedometer, in the same style as the Pokémon Pikachu 2 GS, called Pocket Sakura (ポケットサクラ) and Sakura Taisen GB, developed by Jupiter. Sega could not publish either, due to their rivalry with Nintendo.
+Similarly, Sanrio, responsible for the Hello Kitty franchise, licensed to Nintendo the development of the Pocket Hello Kitty. This featured a similar design to the first Pokémon Pikachu, with a game based on Hello Kitty and her friends, available in a pink-colored case. Pocket Hello Kitty was released in Japan on August 21, 1998.
+
+Pokéwalker
+In 2009, a device similar to the Pokémon Pikachu called the Pokéwalker, came packaged with Pokémon HeartGold and SoulSilver which communicates directly with the Nintendo DS game cards via infrared. It allowed the player to transfer one Pokémon at a time from their HeartGold or SoulSilver. The user is able to catch Pokémon and find items by spending watts.

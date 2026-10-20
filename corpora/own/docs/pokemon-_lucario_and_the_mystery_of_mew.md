@@ -1,0 +1,39 @@
+# Pokémon: Lucario and the Mystery of Mew
+
+Pokémon: Lucario and the Mystery of Mew
+
+Pokémon: Lucario and the Mystery of Mew is a 2005 Japanese animated fantasy film directed by Kunihiko Yuyama and produced by OLM, Inc. It is the eighth film of the Pokémon anime series and the third film of Pokémon the Series: Ruby and Sapphire. The film stars the voices of Rica Matsumoto, Ikue Ōtani, Yūji Ueda, Kaori, Fushigi Yamada, Megumi Hayashibara, Shin-ichiro Miki, Inuko Inuyama, Daisuke Namikawa, Satomi Kōrogi, Takeshi Aono, Noriko Hidaka, Kōichi Yamadera, Kumiko Okae, Momoko Kikuchi, and Becky. It was released in theaters in Japan on July 16, 2005, followed by the Japanese DVD and VHS releases on December 22, 2005.
+The English dub was done by 4Kids Entertainment and was first released on DVD in Australia on August 16, 2006, with the US release following on September 19, 2006. The English dub of the movie premiered in the US for the first time at the 2006 San Diego Comic-Con. The film aired in the United Kingdom in July 2007 on Cartoon Network. This is also the last Pokémon film to be dubbed in English by 4Kids Entertainment, who had been dubbing Pokémon from the start of the television series in 1998. All future Pokémon episodes and films would be dubbed by The Pokémon Company International. The events of the film take place during Pokémon: Advanced Battle.
+Pokémon: Lucario and the Mystery of Mew was one of the four nominees for the American Anime Awards' "Best Anime Feature" award, but it lost to Final Fantasy VII: Advent Children.
+
+Plot
+In the distant past, a war is about to break out between Pokémon outside the Tree of Beginning. The Pokémon Lucario informs his master, the Aura Guardian Sir Aaron, of the danger, however to his shock, Aaron seemingly betrays him as he proceeds to leave, sealing Lucario away in his staff. After the staff is given to the Queen of Cameron Palace by a Pidgeot, she witnesses the Tree of Beginning start to shine brightly, which also stops the impending conflict of the war.
+Over a thousand years later, Ash Ketchum and his friends arrive at Cameron Palace where a festival is being held to celebrate Sir Aaron. At the festival, Ash, coincidentally wearing a re-creation of Aaron's outfit, competes in a tournament at Cameron Palace and wins, to become the "Aura Guardian" for that year. As part of the celebration, Ash is granted Aaron's staff, where his "Aura", which resembles that of Sir Aaron, ends up inadvertently releasing Lucario from his capture. After adjusting to this situation, he informs everyone of Aaron's betrayal.
+Elsewhere, Pikachu and the Pokémon are playing with a Mew that likes to hang out around the palace, when they are chased by a pair of Weavile, sent by an adventurer named Kidd attempting to put a tracker on Mew. After Pikachu protects Mew, he teleports him (and Team Rocket's Meowth) away. Ash and the group soon learn about the events and that Mew has taken them to the Tree of Beginning where it resides. Kidd agrees to help them, and they seek Lucario's assistance as a guide, who reluctantly accepts. During the journey, Lucario voices his disgust at humans, leading to a physical confrontation with Ash. Max ends up giving Lucario a chocolate bar, which he likes and it helps toward him trusting humans. Along the way, they encounter "time flowers" that exist in the area and have the ability to show visions of the past. One of these show the battle and Aarons betrayal. Ash eventually earns Lucario's trust by apologizing for his hurtful words. As they enter the Tree of Beginning, they are attacked by Regirock, Regice, and Registeel, the tree's guardians who recognize them as a threat.
+They enter the tree and are attacked by the tree's defense system, antibody-type mechanisms, triggered by Kidd's survey robots. While Ash initially manages to reunite with Pikachu, the antibodies overwhelm everyone and absorb them into the tree. After Pikachu pleads with Mew, he saves them by reasoning with the tree's defense mechanism. However, the disruption of energy flow in the tree due to the defense system sends the tree into shock, and as Mew and the tree are symbiotic creatures that depend on each other for survival, Mew also becomes very ill. Traveling to the tree's heart, Ash, Kidd, and Lucario witness a time flower's vision of Aaron, revealing that he actually sacrificed himself using his Aura power into the Tree to stop the war. Following the vision, Lucario and Ash combine their Aura to reverse the self-destruction of the tree and save Mew, but Lucario pushes Ash away towards the completion of the process to save him.
+Following the tree's restoration, a worn-out Lucario stumbles upon one last time flower. Through the vision he sees a dying Aaron, and learns his master sealed him away to ensure that he wouldn't die too. Aaron thanks Lucario for being his friend. Lucario, having been touched by Aaron's last words, peacefully passes on. As Kidd and Ash reunite with their team, Kidd decides to keep her discovery under wraps and Ash vows to keep Lucario's memory with him.
+
+Voice cast
+Release
+Theatrical run
+Pokémon: Lucario and the Mystery of Mew was released in Japan on July 16, 2005.
+
+Home media
+It was released direct-to-video with an English-language dub in the United States on September 19, 2006, by Viz Video. However, the Australian DVD has the film presented in widescreen while the USA release contained a full-frame presentation. Also, there was a Collector's Edition that was bundled with the episode The Mastermind Of Mirage Pokémon. The film has yet to be released on DVD in the United Kingdom although it has been released as a digital download in the UK iTunes Store and on Amazon's UK website.
+
+Reception
+Box office
+The general screening of Lucario and the Mystery of Mew in Japan ran for 6 weeks from July 16 to August 26, 2005.
+
+July 16–17: 2nd overall, 1st domestic
+July 23–24: 2nd overall, 1st domestic
+July 30–31: 2nd overall, 1st domestic
+August 6–7: 3rd overall, 2nd domestic
+August 13–14: 3rd overall, 2nd domestic
+August 20–21: 4th overall, 2nd domestic
+August 27–28: 7th overall, 4th domestic
+Since premiering on July 16, 2005, Lucario and the Mystery of Mew grossed ¥4.3 billion at the Japanese box office, making it the year's second highest-grossing domestic film, behind only Howl's Moving Castle. Approximately 3,930,000 viewers saw the movie.
+The final box office tally is 98.3 percent of the sales of last year, but with the last three movies all consistently passing the 4 billion yen mark, it is considered a market success. The slight market loss is attributed to stiff competition at the box office from other anime films running at the same time. However, the film was critically acclaimed by critics, with praise towards its animation, music score, and its darker tone.
+
+Critical reception
+Carlos Santos, in a review of the film for Anime News Network, gave the film an overall grade of B−. He praised the film for its "epic" premise, saying that it had "enough weight to sustain an hour and a half of action", as well as its animation and use of CGI. However, he criticized the film's overall plot and the music used in the English dub. He concluded: "Lucario and the Mystery of Mew isn't out to change the face of animation forever, but it's set to entertain, which it does with its fantasy flavor and strong back-story. Kids will get to see their favorite characters, while anyone who's babysitting them will get to see a fairly decent adventure." Jeremy Mullin of IGN gave it a positive review, giving it a 7 out of 10 and saying that "this one is especially interesting, packed full of action and intrigue" and that "there's also plenty of comedy, whether it's Brock trying to hit on the nearest pretty lady or recurring villains Team Rocket trying to get a leg up in the action".

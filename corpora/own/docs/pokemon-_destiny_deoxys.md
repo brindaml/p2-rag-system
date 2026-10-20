@@ -1,0 +1,36 @@
+# Pokémon: Destiny Deoxys
+
+Pokémon: Destiny Deoxys
+
+Pokémon: Destiny Deoxys is a 2004 Japanese anime film directed by Kunihiko Yuyama. It is the seventh film of the Pokémon anime series and the second film of Pokémon the Series: Ruby and Sapphire. The film stars the voices of Rica Matsumoto, Ikue Otani, Yuji Ueda, Kaori, Fushigi Yamada, Noriko Hidaka, Koichi Yamadera, Susumu Chiba, Kenji Nojima and Becky. The events of the film take place during Pokémon: Advanced Challenge.
+The film was released on July 17, 2004, in Japan. The English adaptation was produced by 4Kids Entertainment and distributed by Miramax Films and debuted on Kids' WB on January 22, 2005.
+The ending theme for the Japanese version is "Lovely (Yumemiru Lovely Boy)" (L•O•V•E•L•Y～夢見るLOVELY BOY～; "Lovely: Dreaming Lovely Boy") by Tomoko Kawase under her alias Tommy February6 while the English version is titled "This Side of Paradise" by Bree Sharp.
+
+Plot
+A mysterious meteorite is hurtling towards the earth, and during its entry into the atmosphere, it nearly wounds Legendary Pokémon Rayquaza, a sky guardian living in the ozone layer. The meteorite crashes into a polar zone, revealing two egg-shaped objects. The purple egg regenerates into a Deoxys and picks up the green egg. Rayquaza descends from the ozone layer to fight the invader, believing it to be an enemy. A battle ensues, destroying a nearby research site and traumatizing a young boy Tory (Tou'i), scared by a stampede of Spheal, Sealeo, and Walrein. Deoxys engages Rayquaza and the two take turns delivering devastating blows to each other, but the fight draws to a conclusion when Rayquaza surprises the alien Pokémon and fires a point blank Hyper Beam at it. Deoxys' body is destroyed, leaving only the purple crystal in its chest that falls into the sea, while some researchers take a similar green crystal that it found with them to Hoenn. Beneath the sea, the injured Deoxys regenerates and waits.
+Four years later, Ash, May, Brock, and Max travel to LaRousse City, where block robots patrol the area. There they meet Tory, who has since become afraid of Pokémon and a loner. Deoxys, which has fully healed, leaves to find the green crystal which Tory's father and Yuko are testing in a lab. In the Battle Tower, Ash mistakes Tory for a Pokémon Trainer and they battle against Rafe and Sid, with Tory using Ash's Torkoal. However, Tory does not know how to handle Ash's Torkoal and they lose. Tory runs away, reluctantly stopping to save a Minun which was trapped in a trash can. Later, Ash meets Tory's father and Yuko, and they have fun until they see a mysterious purple aurora, signalling the return of Deoxys.
+When Deoxys begins to remove the city's inhabitants to search for the green crystal using copies of itself, it is up to Ash, Pikachu, and Tory to help it find the crystal. This is complicated by the return of Rayquaza and the security robots malfunctioning, which forces Deoxys to create a force field that disables the city's power. Later, Rayquaza manages to break through the force field, resuming its battle with Deoxys that wreaks havoc in the city. The green crystal is regenerated when Pikachu, Minun, and Plusle charge the power generator in the lab. As the fight continues, Deoxys tackles Rayquaza into the floor. It prepares to finish off Rayquaza, but the green Deoxys arrives, fully regenerated, and quickly transforms into its Defense Forme, saving Rayquaza from the attack. The city is soon filled with blocks of robots when the chief robot becomes hostile, which overwhelm Rayquaza. The twin Deoxys form shields that protect Rayquaza. Seeing that the two Pokémon are willing to protect it in face of this new threat, Rayquaza begins firing Hyper Beams upon the thousands of robots.
+Ash and Tory work together and ultimately manage to shut off the malfunctioning robots by disabling the chief robot, freeing the twin Deoxys and Rayquaza. Tory falls off the towers of robots trying to save Plusle and Minun, but is saved by the green Deoxys. Rayquaza, recognizing that the Deoxys aren't real enemies, flies away peacefully, and the Deoxys form green and purple auroras in the sky as a goodbye, leaving to an unknown destination. Ash states that wherever they are going, at least they would always have each other. Tory, who has gotten over his fear of Pokémon, agrees and later bids Ash and the others farewell at the train station with his new friends, Plusle and Minun, on his shoulders. Ash and his friends continue on their journey through the Hoenn region.
+
+Cast
+Production
+Director Kunihiko Yuyama visited the city of Vancouver, British Columbia, Canada to get ideas for the setting for the film. The "Deoxys language" was created using dialogue that was recorded in Japanese and then filtered to sound alien.
+
+Release
+Theatrical run
+Pokemon: Destiny Deoxys was distributed theatrically in Japan by Toho on July 17, 2004, alongside Steamboy.
+
+Broadcast airing
+The movie's English dub by 4Kids Entertainment was first broadcast on television in the United States on January 22, 2005.
+
+Home media
+The film was released on VHS and DVD in Japan by Media Factory on December 21, 2004. The film was later released in the U.S. on DVD and VHS by Buena Vista Home Entertainment on February 15, 2005. In the UK, StudioCanal released the DVD on April 2, 2012.
+The film was released on Blu-ray along with Pokémon Heroes on May 15, 2011, in the United States by Echo Bridge Home Entertainment.
+The film was re-released on DVD on August 16, 2021, in the UK by Paramount Home Entertainment alongside Pokémon 4Ever and Pokémon Heroes.
+
+Reception
+Box office
+The film did not make it into the top 10 box office films in Japan due to the success of American blockbuster movies that year. However, it was ranked as the No. 1 anime film that year with $34m in box office sales, beating out Doraemon: Nobita in the Wan-Nyan Spacetime Odyssey ($26.5m), Detective Conan: Magician of the Silver Sky (Detective Conan feature film, $22m), Crayon Shin-chan: The Storm Called: The Kasukabe Boys of the Evening Sun ($11m), Naruto the Movie: Ninja Clash in the Land of Snow ($11m), Innocence ($8m), Steamboy ($8m) and Inuyasha the Movie: Fire on the Mystic Island ($7m). Its overall ranking is seventh place. The film was the tenth highest-grossing film in Japan for the year behind The Lord of the Rings: The Return of the King, Harry Potter and the Prisoner of Azkaban, Howl's Moving Castle, Crying Out Love in the Center of the World, The Last Samurai, Spider-Man 2, The Day After Tomorrow, Finding Nemo, and Troy.
+
+Critical reception
+The English dub for Pokémon: Destiny Deoxys received generally negative reviews. DVD Talk gave it a negative review saying that "I didn't find much of the film that was much superior to an average episode of Pokémon" and "unless you have a die-hard Pokemon fan in your household, this DVD should just be skipped". BellaOnline gave it a negative review saying that "while Pokémon: Destiny Deoxys is a decent film, I was rather disappointed by the lack of effort Miramax put into the DVD extras on this release" and that "however, if you are a fan of the Pokémon anime, you should purchase this DVD for your collection".

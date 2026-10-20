@@ -1,0 +1,32 @@
+# Pokémon: Mewtwo Strikes Back – Evolution
+
+Pokémon: Mewtwo Strikes Back – Evolution
+
+Pokémon: Mewtwo Strikes Back – Evolution is a 2019 Japanese animated fantasy film directed by Kunihiko Yuyama and Motonori Sakakibara. It is the twenty-second film of the Pokémon anime series and a CGI remake of Pokémon: The First Movie (1998). The film was animated by OLM, Inc., OLM Digital, and Sprite Animation Studios. At the same time, the events of the film take place during Pokémon: Indigo League. It was released in Japan on July 12, 2019, and on Netflix worldwide on February 27, 2020.
+
+Plot
+Scientist Dr. Fuji is hired by Giovanni, leader of Team Rocket, to utilize his expertise in cloning to create a living weapon based on an eyelash from Pokémon Mew. Soon after the weapon is created, it gains sentience and is named Mewtwo.
+Several years later, Mewtwo has fully awakened from a long slumber in a laboratory on New Island and learns of his origin as Mew's clone from Dr. Fuji. Infuriated that Fuji and his colleagues see him as nothing more than an experiment, he unleashes his psychic powers and destroys the laboratory, killing Fuji and the rest of the scientists. Giovanni, witnessing the carnage afar, approaches and convinces Mewtwo to work with him to hone his powers. However, after Mewtwo learns of his purpose to be a weapon for Giovanni's benefit, he escapes back to New Island, where he plots his revenge against humanity.
+After Mewtwo rebuilds the laboratory and establishes a base there, he invites several trainers with hologram messages to battle the greatest Pokémon Master in the world at New Island. Ash Ketchum, Misty, and Brock receive a message and accept the invitation, but when they arrive at the port city, Old Shore Wharf, Mewtwo creates a storm, causing the boats on the wharf to be closed off for safety. As a result, Ash's group is picked up by Team Rocket disguised as captains on a Lapras-shaped sailboat. After the storm sinks their vessel in the middle of the ocean, Ash and his friends use their Pokémon instead to reach New Island.
+Escorted into the island's palace by the woman who appeared on the hologram, Ash and the other trainers who were able to reach the island encounter Mewtwo. The woman is revealed to be a brainwashed Nurse Joy after she is released from Mewtwo's mind control. Mewtwo challenges the trainers using cloned Pokémon. Meanwhile, Team Rocket also reaches New Island and explores its inner sanctum with a Mew innocuously following them. After Mewtwo's clones effortlessly defeat the challengers' Pokémon, he confiscates them and expands his clone army. Ash chases after his captured Pikachu down the cloning lab, where Team Rocket's Meowth is also cloned. Ash destroys the cloning machine, freeing the captured Pokémon and leads them to confront Mewtwo and his clones. Mew then reveals itself and Mewtwo challenges it in order to prove his superiority that the original and the clone is the strongest in the world.
+All of the Pokémon originals battle their clones save for a defiant Pikachu and Meowth, who makes peace with his own clone after realizing the senselessness of their fighting. Horrified at the pain and anguish felt on both sides of the battle, Ash puts himself in between a psychic blast caused by Mewtwo and Mew's fighting, turning Ash to stone. Pikachu tries to revive Ash with his electricity but fails. However, the tears of the Pokémon are able to heal and revive Ash. Moved by Ash's sacrifice, Mewtwo realizes that he should not have to be judged by his origins but rather his choices in life. Leaving with Mew and the clones, Mewtwo turns back time to just before the trainers leave Old Shore Wharf and erase everyone's memories of the event.
+Back in Old Shore Wharf, the now-restored Nurse Joy has returned to reopen the Pokémon Center to shelter the trainers. The storm outside clears up, Ash spots Mew flying through the clouds and tells his friends how he saw another Legendary Pokémon the day he left Pallet Town. Meanwhile, Team Rocket find themselves stranded on New Island but enjoy their time there.
+After the credits, a brief scene shows Mewtwo, Mew, and the clones flying towards Mount Quena.
+
+Voice cast
+Production
+Since the film is a near shot-for-shot remake of the first Pokémon film, with minimal changes in the script, The Pokémon Company had to obtain the rights to that script from the estate of Takeshi Shudo (died in 2010), who had written the screenplay for the original film. According to film director Kunihiko Yuyama, the production staff chose to animate the film using 3D graphics to portray a "different dimension of the Pokémon world" that would normally be difficult to carry out through other methods of animation. Though the film was primarily based on the Kanzenban or "Complete" version of the original film, a scene featuring a young Mewtwo growing up with clone companions that eventually died was not adapted for the remake but acknowledged during the film's marketing cycle.
+The film was publicly announced on December 14, 2018.
+
+Release
+Home media
+The film was released on DVD and Blu-ray in Japan on December 18, 2019, and in North America on November 17, 2020.
+
+Streaming
+On January 21, 2020, The Pokémon Company International announced that the film would be released worldwide (except for South Korea) as a Netflix Original Movie on Pokémon Day – February 27, 2020. This is the first Pokémon film to premiere on a streaming platform rather than premiere in theatres or on television.
+The film was the most-watched anime title on Netflix in 2020.
+
+Reception
+The film holds an approval rating of 44% on review aggregator Rotten Tomatoes based on nine reviews, with an average rating of 6/10.
+Writing for the Los Angeles Times, Charles Solomon criticized the film's animation, saying: "Ash and his friends Brock and Misty have the disturbing, plastic look of badly rendered skin", and added: "the cartoony characters look out of place amid the hyper-real water, lightning, explosions and other special effects." He concluded that the film "feels like poké-business as usual."
+Paul Asay of Plugged In wrote: "For some, Mewtwo Strikes Back: Evolution will feel extraordinarily nostalgic. Others (read: non-fan parents) will likely be thinking... Meh." Brian Costello of Common Sense Media gave the film a score of 3 out of 5 stars, saying: "Whether or not viewers, and Pokémon fans in particular, enjoy this movie is inevitably dependent on how much they like the change to 3D computer animation."

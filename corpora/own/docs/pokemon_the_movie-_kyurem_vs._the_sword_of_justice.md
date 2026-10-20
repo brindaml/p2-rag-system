@@ -1,0 +1,43 @@
+# Pokémon the Movie: Kyurem vs. the Sword of Justice
+
+Pokémon the Movie: Kyurem vs. the Sword of Justice
+
+Pokémon the Movie: Kyurem vs. the Sword of Justice is a 2012 Japanese animated film produced by OLM, Inc. and distributed by Toho. The film was directed by Kunihiko Yuyama and written by Hideki Sonoda. It is the 15th animated installment in the Pokémon film series and the second film of Pokémon the Series: Black & White.
+The film follows Keldeo, a creature known as a Pokémon, which is in training to become one of a group of protector Pokémon called the Swords of Justice. The frightened Keldeo flees his battle with the Dragon-type Pokémon Kyurem, which encases the Swords of Justice in ice and pursues Keldeo. The Pokémon trainers Ash Ketchum, Iris, and Cilan assist Keldeo to return to help his friends.
+The film celebrates the 90th anniversary of the Japanese manga publisher Shogakukan, which published many Pokémon related works. It was released on July 14, 2012, in Japan.
+
+Plot
+Virizion, Terrakion, and Cobalion belong to a group of Legendary Pokémon called the Swords of Justice, which travel the world to protect people and Pokémon in need of help; Keldeo is in training to become a member of the Swords of Justice. His final challenge before he can become part of the group is to battle Kyurem, a powerful Dragon-type Legendary Pokémon with the ability to wield the power of Reshiram and Zekrom which lives in an abandoned mine. However, the Swords of Justice do not believe that Keldeo is ready.
+Keldeo sneaks out to the mine, Full Court, to battle Kyurem, lying to him that he is a Sword of Justice. Kyurem breaks Keldeo's horn, causing Keldeo to become nervous and afraid. The Swords of Justice arrive at the Full Court to try and stop the fight. Angered by this, Kyurem freezes the Swords of Justice in ice. Keldeo runs away in panic, and Kyurem chases after him, announcing that their battle is not over.
+Pokémon trainers Ash Ketchum, Iris, and Cilan find the injured Keldeo on top of their train headed for Roshan City. Kyurem arrives with his minions, several Cryogonal, still wanting to continue the fight. However, Kyurem withdraws when the train enters a tunnel. Keldeo is taken to Roshan City's Pokémon Center to be healed. Outside, Ash, Iris, and Cilan agree to help Keldeo and free the Swords of Justice together. Iris commandeers a zeppelin from the city's museum while Cilan uses an abandoned mine cart powered by his Stunfisk to bait Kyurem and the Cryogonal into following them, while Ash and Keldeo sneak away to save the Swords of Justice on foot.
+Kyurem returns to the mine to continue the battle. Ash heads to the Full Court with his Pikachu, Pignite, and Boldore to free the Swords of Justice. Infuriated that they are trespassing his home, Kyurem tries to attack them, but Keldeo rescues them, gaining the courage he needs to fight. Kyurem reveals that he already knew that Keldeo had lied about being a Sword of Justice but still accepted his challenge and intends to finish the battle. During the battle, Keldeo unlocks his Resolute Forme and is able to match Kyurem. The battle causes the Full Court to start collapsing, breaking the ice the Swords of Justice were imprisoned, but when one of Kyurem's attacks accidentally gets sent towards Ash and his friends, Keldeo sacrifices his chance to win to protect them and is injured. Keldeo yields to Kyurem, who praises the former for valuing his friends more than victory, and the battle ends.
+The Swords of Justice praise Keldeo for finally learning the true power of the sword, which officially makes him the fourth member of the team. The group retreats from the Full Court as it collapses. Kyurem freezes the falling Full Court to prevent being crushed and any more damage from being caused.
+
+Music
+As in the previous Pokémon films and its anime series, the music is composed by Shinji Miyazaki.
+The movie's theme song is titled "Memories" (メモリーズ, Memorīzu), which is performed by the Bengali-Japanese-Russian model-turned-singer Rola. The film's director Kunihiko Yuyama thinks the song will work perfectly for the film itself after he first heard it. Rola also voiced a character in the film named Malin. The single itself was released on July 11, 2012. And the English ending song for this movie is "It's All Inside of You" written by John Loeffler and David Wolfert (who also wrote "Rival Destines" which is performed by Kathryn Raio and Alex Nackman) and performed by Jesse Turner.
+
+Cast
+Regular characters
+Jessie, James, and Meowth make several cameo appearances in this feature but without any spoken dialogue.
+
+Movie characters
+Kyurem (キュレム, Kyuremu): Known as the Boundary Pokémon, he is a dragon that was born alongside Reshiram and Zekrom, and is considered to be the strongest of the three dragons. He has the powers of both of the former two dragons, allowing himself to shift into his forms: Black Kyurem (ブラックキュレム, Burakku Kyuremu) and White Kyurem (ホワイトキュレム, Howaito Kyuremu), fully using the abilities of both Reshiram and Zekrom. His relationship to the Swords of Justice and to Keldeo were somewhat unknown, although he seems viciously determined to finish the fight that Keldeo started with him, and refuses to let Keldeo flee until Keldeo can finish what he started. In the original Japanese release, Kyurem's voice is provided by Katsumi Takahashi. In the English dub, Marc Thompson provides the voice.
+Keldeo (ケルディオ, Kerudio): The Colt Pokémon and also the fourth of the Swords of Justice. Keldeo is very exceptional at using his hidden abilities. And unlike the other swordsmen, Keldeo can assume his other form called Resolute Form. He challenges Kyurem to a battle despite Cobalion's warnings, and when Kyurem proves to be too strong, Keldeo became scared and ended up running away. Keldeo is then followed in hot pursuit by Kyurem, who is determined to finish their fight. In the original Japanese release, Keldeo is voiced by Shoko Nakagawa, while Vic Mignogna voices the character in English.
+Cobalion (コバルオン, Kobaruon): The Iron Will Pokémon and leader of the Swords of Justice. Having a collected personality, he is responsible for the group and for protecting Keldeo from Kyurem. Cobalion's Japanese voice actor is Kōichi Yamadera. His English voice actor is H.D. Quinn.
+Terrakion (テラキオン, Terakion): The Cavern Pokémon and the most physically strongest member of the Swords of Justice. He is very hotheaded but loyal towards Cobalion. Terrakion's Japanese voice actor is Hiroki Yasumoto. His English voice actor is Henry Carr.
+Virizion (ビリジオン, Birijion): The Grassland Pokémon and also a member of the Swords of Justice. She is the most rational and the fastest of all the Swords of Justice. Virizion's Japanese voice actor is Takako Honda. Her English voice actor is Emily Williams.
+Malin (マリン, Marin): A young girl who sells Darumaka lunch boxes at Windy Station, along with her partner Vanillite. Malin's voice in the Japanese release is provided by the film's theme song singer Rola in a cameo role. In the English dub, Malin is voiced by Erica Schroeder.
+
+Promotion
+Players who purchased a pre-sale ticket of the movie received Keldeo in the video games Pokémon Black, White, Black 2, or White 2.
+
+Release
+Theatrical release
+The film was released in Japan on July 14, 2012, by Toho.
+
+Broadcast airing
+Pokémon the Movie: Kyurem vs. the Sword of Justice premiered in the United States on Cartoon Network in conjunction with YTV in Canada on December 8, 2012, and premiered in the United Kingdom on CITV on December 12, 2012.
+
+Reception
+Carl Kimlinger, writing for Anime News Network, gave the film an overall grade of C−. He praised the film's visuals and its antagonist Kyurem, writing: "Kyurem is an appropriately frightening antagonist: cold, furious—an unstoppable force of nature. … When he and Keldeo fight, it's fluid and impressively destructive". However, he criticized the character of Keldeo as a whole, writing: "He is maybe the single dorkiest character to come out of the franchise to date. … He looks like a jester crossed with a My Little Pony, as interpreted by Osamu Tezuka at his precious, anthropomorphizing worst", and added: "Every time you're about to lose yourself in the thrilling spectacle of it all, Keldeo's goony mug intrudes and wrecks all of the work that director Kunihiko Yuyama and his team at Oriental Light and Magic have done." Kimlinger concluded: "it has enough color and action to engage younger young'uns through its brief hour-fifteen running time, and like every other Pokémon property it's thoroughly harmless", and added: "as for those of us who have critical faculties… the sooner we can forget the film, and Keldeo's button-eyed horsey face, the better."
