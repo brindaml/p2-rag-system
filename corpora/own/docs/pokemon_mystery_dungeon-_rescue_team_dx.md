@@ -1,0 +1,22 @@
+# Pokémon Mystery Dungeon: Rescue Team DX
+
+Pokémon Mystery Dungeon: Rescue Team DX
+
+Pokémon Mystery Dungeon: Rescue Team DX is a 2020 roguelike video game developed by Spike Chunsoft and published by Nintendo and The Pokémon Company for the Nintendo Switch. It is part of the Pokémon Mystery Dungeon video game series. It is a remake of the 2005 video games Pokémon Mystery Dungeon: Blue Rescue Team and Red Rescue Team. Announced in January 2020, it was released worldwide on March 6, 2020. The game is the first remake of a Pokémon spin-off game. The game features a new painterly-like art style and includes new additions not seen in the originals such as Mega Evolution, autosave, and auto-mode. As of December 31, 2022, the game has sold 1.99 million copies.
+
+Gameplay
+The player starts out as a human who turned into a Pokémon, which can be one of sixteen Pokémon from the series' first three generations (Bulbasaur, Charmander, Squirtle, Pikachu, Meowth, Psyduck, Machop, Cubone, Eevee, Chikorita, Cyndaquil, Totodile, Treecko, Torchic, Mudkip, and Skitty). The Pokémon that the player begins as is determined by a personality quiz taken at the start of the game. The player chooses a partner Pokémon from the same list, excluding Pokémon of the same type. The game is mission-based with many jobs, which can be found on the bulletin board, requested by mail, or initiated through story events, and include rescuing Pokémon, delivering items, and escorting clients. If the player successfully completes a job, they receive a reward and Rescue Points, which increase a team's rank.
+These jobs take place in dungeons, the layout of which are randomized. The objective is to either finish a job or go through all the floors to find the exit. In the dungeon, there are wild Pokémon that battle with the player's team. These battles are turn-based, and take place in the dungeon map. Pokémon fight with the four moves they know, or by using projectiles and other items. While going through the dungeon, the player gets hungry and must eat food, either found in the dungeon or bought in advance. Pokémon can join the player's team within dungeons and can either permanently stay or be dismissed after the dungeon. Completing missions can also allow a Pokémon to join the player's team.
+Unlike the original games, being defeated in a dungeon will only make the player control the next Pokémon in their team, until all three main Pokémon are defeated. The player is able to encounter shiny Pokémon during the game, which only appear as "strong foes".
+
+Plot
+The plot is similar to that of the original Rescue Team, with only minor changes in details and dialogues.
+
+Release
+The game was announced in a Pokémon Direct on January 9, 2020, and was released worldwide for the Nintendo Switch on March 6, 2020. A free demo was made available on the Nintendo eShop on January 9, 2020; progress in the demo can be transferred to the full game.
+
+Reception
+The game received "mixed or average" reviews based on seventy-four critic reviews, according to the review aggregator Metacritic. Fellow review aggregator OpenCritic assessed that the game received fair approval, being recommended by 39% of critics. The game was seen as an overall improvement from the original games because of its enhanced art style and updated mechanics from previous entries, but criticized for its repetitive dungeons and the lack of enemy HP bars. Giving the game a score of 6/10, IGN's Travis Northup called it an "unremarkable, grindy experience", while GameSpot's Cian Maher stated the dungeons can "still be a tad annoying at times" and gave it an 8/10.
+
+Sales
+Pokémon Mystery Dungeon: Rescue Team DX was the bestselling game in Japan during its first week of release, with 138,548 physical copies being sold. It placed first in the United Kingdom and France sales charts during the first week. Over 360,000 copies had been sold in Japan and over 890,000 copies overseas, for a total of over 1.26 million copies sold by the end of March 2020. It is ranked among the list of best-selling Nintendo Switch video games. The game was ranked twenty-first in Japan's top 30 best-selling games of 2020 on the Nintendo eShop. As of December 31, 2022, the game has accumulated a grand total of 1.99 million copies according to Computer Entertainment Supplier's Association's White Papers, surpassing Pokémon Mystery Dungeon: Gates to Infinity's lifetime sales.
