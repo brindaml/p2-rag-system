@@ -494,7 +494,16 @@ _No stretch runs yet (stretch option 5): `uv run p2 run --corpus own --queries e
 
 ### Your stretch
 
-Write the five things here.
+Option 3, "Cost and Latency"
+
+I made a copy of the reranker but changed it to see the top 10 candidates instead of the top 20. The files that hold it are rerank_c10.py, rerank_c10.practice.trec, and shared-practice-rerank_c10.jsonl
+
+stretch-cost
+
+The interval lets me claim that I am saving tokens per query (3280 per query) and time per query (1.9 seconds), and that the interval is [-0.225, 0], MRR@10 dropped from 0.800 to 0.700 which is not distinguishable. It just tells me that it is cheaper, I can't claim if it's worse or not. I can claim that even the cheaper rerank_c10 does better than hybrid, but isn't distinguishable for bm25 or dense. As of now, I would not make this trade because while it saves tokens, it doesn't make sense to drop so much and have it be not distinguishable anymore, but further testing would validate this.
+
+In the future, I would want to run it on 15 candidates to figure out optimal amounts for cost saving but also more accurate answers. I also would want to run this with more queries to get a better baseline. I want the interfval to not touch zero, which is when I would know if the drop is actually real.
+
 
 ---
 
