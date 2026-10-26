@@ -29,7 +29,7 @@ For dense, the embedding model was the bge small because it was measured to be s
 
 For hybrid, bge small was reused, the chunking was the same, and what was fused was bm25 and dense. They were fused with the reciprocal rank fusion, where it gets a hybrid score from both its bm25 rank and dense rank, taken as a reciprocal of 1/(60+rank) and those are added together, and then are sorted from that. There was no reranker, and the changes from the lab were that the ranks are used in a dict instead of a list.index, making it faster.
 
-For rerank, there wasn't a specific embedding model because it just reranked from hybrid, so bm25 and bge small. The chunk was done the same way with 300 word chunks, nothing was fused because it just used hybrid's fused rankings. The reranker candidates  were the top 20 from hybrid, where everything below the top 20 was kept in hybrid's original order. Claude is the one that reorders the top 20. The changes were that the schema required all numbers to be between 1-20 and that anything invalid went back to the hybrid's original order.
+For rerank, there wasn't a specific embedding model because it just reranked from hybrid, so bm25 and bge small. The chunk was done the same way with 300 word chunks, nothing was fused because it just used hybrid's fused rankings. The reranker candidates were the top 20 from hybrid, where everything below the top 20 was kept in hybrid's original order. Claude is the one that reorders the top 20. The changes were that the schema required all numbers to be between 1-20 and that anything invalid went back to the hybrid's original order.
 
 ### Practice queries (20)
 
@@ -141,10 +141,10 @@ For each one, open the cited chunk and say whether the quote really supports the
 The check proves a quote is a real piece of the chunk and cannot prove that it supports the claim, so this reading is the part only you can do.
 
 The system that answered was rerank, because it was the system that did the best out of all of them. 
-I did not change anything in prompts/answer.txt, so everything 8/8 were verified and 4/4 were declined. 
+I did not change anything in prompts/answer.txt, so 8/8 answers were verified and 4/4 were declined. 
 
 For a02, the quote really does support the claim next to it, nothing changes anything for this question and the document perfectly matches the claim.
-For a04, the first quote really does support the claim. The second quote supports the second claim as well.
+For a04, the first quote really does support the claim. The second quote supports the second claim as well, both of them don't have any contradictions later and the quote fully explains the claim.
 For a07, both quotes answer the question the exact same way with the exact same verbiage, so both support the claim.
 
 
@@ -158,7 +158,7 @@ What is it, where did it come from, how many documents and how many megabytes, a
 Name the one or two documents you were least sure about and what you decided.
 Say which of the allowed sources in the brief it comes from.
 
-My corpus is a total of 226 Wikipedia articles all around Pokemon, dedicated to the games, its spinoffs, the characters, the species,  and just general information that was all available from Wikipedia's API. It is a total of 2.5 MB. The license basis for publishing it is CC BY-SA 4.0 all from Wikipedia's URL, and p2 license reported all of the articles as ok.
+My corpus is a total of 226 Wikipedia articles all around Pokemon, dedicated to the games, its spinoffs, the characters, the species, and just general information that was all available from Wikipedia's API. It is a total of 2.5 MB. The license basis for publishing it is CC BY-SA 4.0 all from Wikipedia's URL, and p2 license reported all of the articles as ok.
 
 I was the least sure about the Pokemon Go article, it was by far the longest article and I wasn't sure it was too much information condensed into one article that could cloud and confuse queries. I decided to keep it because it wasn't split as it was under 15,000 words, and I thought the information would be valuable to be able to reference.
 
@@ -381,7 +381,7 @@ Then sort the failures by cause, for example a vocabulary mismatch, near-duplica
 | h09 | rerank returned team_skull, pokemon_colosseum, and pokemon_xd-_gale_of_darkness | The ones that were relevant were team_rocket, pokemon_firered_and_leafgreen and pokemon_heartgold_and_soulsilver | This is likely because of the lack of detail, there are a lot of villains in the Pokemon universe and without names or further specifications it was hard to pull the exact one I was thinking of. | Next time, I would try putting in more detail without giving away the answer, maybe a catch phrase or other relevant part of the villain to help guide the question more. |
 | c08 | pokemon_legends-_arceus, kleavor, arceus | arceus, kleavor, pokemon_diamond_and_pearl, and pokemon_legends-_arceus which was added later | This was a wrong label, the top result was correct as it states the region, just very briefly. The gold set failed here, not the system. | I need to be more careful about checking topics before labeling instead of just looking at snippets. |
 | h08 | bm25 returned tetris_attack, puzzle_league, planet_puzzle_league | snorlax | The words road and blocking were never used in the article for snorlax, even though his description as a pokemon matched, it didn't match those words. Rerank got this, but not bm25. | I would try to be more specific in the query |
-| c11 | bm25 returned pokemon_x_and_y, pokemon_platinum, pokemon_video_game_series_competitive_play| pokemon_unite | Vocab mismatch, the query used the word five instead of the number 5 | Being verbose and accomdating to multiple styles of writing (numerical and words) |
+| c11 | bm25 returned pokemon_x_and_y, pokemon_platinum, pokemon_video_game_series_competitive_play| pokemon_unite | Vocab mismatch, the query used the word five instead of the number 5 | Being verbose and accommodating to multiple styles of writing (numerical and words) |
 | h02 | bm25 returned mewtwo, dragonite, charizard | charizard | the word evolved and Pokemon is used frequently in other articles | Trying for specific differentiating words that would separate similar answers |
 | c16 | bm25 returned pokemon_ranger, pokemon_the_movie-_diancie_and_the_cocoon_of_destruction, lucario | lucario | Vocab mismatch, the query used the word control instead of manipulate | Being intentional about vocabulary used in queries when there are a lot of possible matches |
 
@@ -400,7 +400,7 @@ Why, or why not: what is different about the two collections (document length, v
 Say what 20 queries on one side and your gold-set size on the other cannot support.
 
 The winner did not change, rerank was first on both by a distinguishably large amount. However, originally bm25, dense, and hybrid were tied, but for the Pokemon ones, hybrid beat dense and bm25 beat dense on recall.
-This is likely because of a couple reasons, one being that the unique names in Pokemon favor bm25. This is kind of tested on the identifier queries, where bm25 was at 1.0, but the exact reason why isn't tested. Additionally, for the claude queries there was a lot more specific language copied from the articles, which made it easier to find exact wording, vs the human ones had more ambiguous vocabulary, but this led to a not distinguishable answer. 
+This is likely because of a couple reasons, one being that the unique names in Pokemon favor bm25. This is partly tested on the identifier queries, where bm25 was at 1.0, but the exact reason why isn't tested. Additionally, for the claude queries there was a lot more specific language copied from the articles, which made it easier to find exact wording, vs the human ones had more ambiguous vocabulary, but this led to a not distinguishable answer. 
 With 20 queries, bm25, vs dense vs hybrid was not distinguishable because the gaps were smaller than the MDD of 0.17 to 0.42. 
 With the 35 queries, the MDD was 0.11 to 0.22 and the potion gap was below it at 0.060.
 
