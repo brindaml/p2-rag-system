@@ -45,7 +45,7 @@ If you rejected the alternative without measuring it, say why that was a fair ca
 "There was no alternative" is not an answer.
 Find the fork.
 
-TODO: your answer to prompt 2.
+For the embedding model, I could have picked bge or potion. I decided to pick bge which I measured on Pokemon, because even though potion is faster, I wanted to see what the results would be knowing that bge was measured to be the stronger of the two of them. I gave up the fact that potion is a lot faster than bge, where potion took under 2.0 seconds for 1627 chunks and bge took 1.8 minutes for it. MRR@10 was 0.706 for bge and 0.646 for potion, which is a difference of -0.06 and an interval of [-.212, .092] which isn't distinguishable.  
 
 ---
 
@@ -73,7 +73,8 @@ It could be a mean over a small query class, a difference whose interval include
 What would have to be true for you to trust it?
 Did you do anything to test it, and what did that show?
 
-TODO: your answer to prompt 4.
+The rerank MRR@10 was 0.971 on Pokemon, which is flagged as a score that is too easy because it is over 0.95. I had an issue already with c08 on the gold set, so there could be human error in labeling the gold set properly, which is partially why I do not trust it. For this to be true, I would have to ask more difficult questions around the same topic, and then also need to check the full article when doing the labeling, rather than just the snippet. 
+This was tested when I fixed c08, where rerank went from 0.957 to 0.971 and bm25 vs dense was no longer distinguishable, showing that one change in the gold set will change the numbers a lot.
 
 ---
 
