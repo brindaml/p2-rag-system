@@ -388,7 +388,7 @@ Then sort the failures by cause, for example a vocabulary mismatch, near-duplica
 | c16 | bm25 returned pokemon_ranger, pokemon_the_movie-_diancie_and_the_cocoon_of_destruction, lucario | lucario | Vocab mismatch, the query used the word control instead of manipulate | Being intentional about vocabulary used in queries when there are a lot of possible matches |
 
 
-Overall, the pattern is that it is important to be very clear in paraphrase queries because there were a lot of mismatches there. This makes sense, because it the system is looking for specific words, you must be explicit and not ambigious on what you are trying to look for.
+Overall, the pattern is that it is important to be very clear in paraphrase queries because there were a lot of mismatches there. This makes sense, because with bm25 the system is looking for specific words, you must be explicit and not ambiguous on what you are trying to look for. I looked specifically at bm25 because rerank had only failed once, the other time it failed was my fault because of the gold set. 
 
 ---
 
@@ -401,7 +401,11 @@ Did the winner change between the shared corpus and yours?
 Why, or why not: what is different about the two collections (document length, vocabulary, identifiers, near-duplicates, how the queries were written), and which of your explanations did you test and which are guesses?
 Say what 20 queries on one side and your gold-set size on the other cannot support.
 
-TODO: write the cross-corpus comparison.
+The winner did not change, rerank was first on both by a distinguishably large amount. However, originally bm25, dense, and hybrid were tied, but for the Pokemon ones, bm25 and hybrid beat dense.
+This is likely because of a couple reasons, one being that the unique names in Pokemon favor bm25. This is kind of tested on the identifier queries, where bm25 was at 1.0, but the exact reason why isn't tested. Additionally, for the claude queries there was a lot more specific language copied from the articles, which made it easier to find exact wording, vs the human ones had more ambiguous vocabulary, but this led to a not distinguishable answer. 
+With 20 queries, bm25, vs dense vs hybrid was not distinguishable because the gaps were smaller than the MDD of 0.17 to 0.42. 
+With the 35 queries, the MDD was 0.11 to 0.22 and the potion gap was below it at 0.060.
+
 
 ---
 
