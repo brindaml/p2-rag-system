@@ -61,7 +61,7 @@ What did you do instead?
 If it genuinely never happened, say so plainly, and then say what you would have had to check in order to notice.
 Being honest here costs you far less than a story you cannot defend when you record your video.
 
-TODO: your answer to prompt 3.
+The real instance of me going against the AI was during c08, where Claude had flagged one of the candidates I didn't mark and asked whether or not I thought it was relevant, leaning towards it was relevant and should be counted. I looked at the snippet and decided it didn't matter originally, but after looking at the failure analysis of the query, I decided that Claude had been correct and I had to rescore with the correct candidate. I noticed this because it was a failing query, but looking through the candidates I had felt that it should have been scored differently. This mattered because it made bm25 vs dense not distinguishable. 
 
 ---
 
@@ -84,4 +84,4 @@ One thing in your system, your corpus or your gold set that is not right, not fi
 What would you do next, and how would you find out whether it matters?
 Name the file, the query or the document where someone could look.
 
-TODO: your answer to prompt 5.
+I think that my gold set needs to be worked on, the articles are verbose and might answer part of the question or more of the question that I originally marked down, so I think that the gold set needs to be more tailored with better information, and there has to be some way for me to figure out what to do if part of the question is answered but not all of it, like charmander evolving into charmeleon, then into charizard, rather than the direct answer I was looking for. I would likely use graded labels to fix this in the future. This happened in query h02 with the labels in qrels.txt. Finally, to see if this matters I would relabel queries with the graded labels and compare the scoring with both graded and not graded labels of the same queries. 
