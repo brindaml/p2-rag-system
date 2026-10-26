@@ -160,7 +160,12 @@ What is it, where did it come from, how many documents and how many megabytes, a
 Name the one or two documents you were least sure about and what you decided.
 Say which of the allowed sources in the brief it comes from.
 
-TODO: describe your corpus and its license basis.
+My corpus is a total of 226 Wikipedia articles all around Pokemon, dedicated to the games, its spinoffs, the characters, the species,  and just general information that was all available from Wikipedia's API. It is a total of 2.5 MB. The license basis for publishing it is CC BY-SA 4.0 all from Wikipedia's URL, and p2 license reported all of the articles as ok.
+
+I was the least sure about the Pokemon Go article, it was by far the longest article and I wasn't sure it was too much information condensed into one article that could cloud and confuse queries. I decided to keep it because it wasn't split as it was under 15,000 words, and I thought the information would be valuable to be able to reference.
+
+This comes from the brief list that states "CC0, CC BY and CC BY-SA text, including Wikipedia (CC BY-SA 4.0, with attribution)" 
+
 
 ### The gold set
 
@@ -169,7 +174,9 @@ How did you decide that a document is relevant: write your relevance rule in two
 How did you find candidates (the systems' top 10, a keyword search, reading), and did you read every document before you labeled it?
 Your labels are binary (`rel` 1) unless you say otherwise: if you use graded labels, declare the scale here, for example 2 means the document answers the query fully and 1 means it helps.
 
-TODO: describe your gold set and your relevance rule.
+There were 35 queries total, 10 by hand and 25 from claude. The queries were divided into 11 identifier, 17 paraphrase, and 7 mixed. I focused a lot on paraphrase questions because that is what my ablation hypothesis was about, so I wanted to see what it would do with such a wide variety of information, but not a specific question. 
+I decided a document was relevant if the snippet justification fully answered the question I was asking, not whether or not the actual article was specific to the question. This was important because these documents are related, so the system doesn't need to necessarily find the exact article to be able to find correct information, so it was based largely on if it contained the answer using the snippets.
+The candidates were found via the top 5 of bm25, dense, and hybrid, and they were added to a checklist with all of the snippets. I read all of the snippets before labeling, and if none of the documents were relevant, I added in documents that pointed to the answers, like snorlax and team_rocket.
 
 ---
 
@@ -291,7 +298,10 @@ Which differences are distinguishable and which are not, at your gold-set size?
 Do the `hand` queries and the `claude` queries tell the same story?
 Did your prediction in `DECISIONS.md` prompt 1 hold?
 
-TODO: write what your own-corpus intervals let you claim.
+What is distinguishable is that bm25 and hybrid beat dense. Also that rerank beat bm25. However hybrid vs. bm25 is not distinguishable. 
+
+Between the hand and claude queries, both tell the story that rerank is the highest and that dense and potion are the lowest. The difference is that bm25 for hand is ranked lower than it is by claude. 
+
 
 ---
 

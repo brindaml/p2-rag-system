@@ -26,7 +26,11 @@ Commit this answer before your first `uv run p2 score` on the own corpus.
 Git history then shows that the expectation came first, which is what lets it be wrong in a way that teaches you something.
 If you were surprised later, say so in prompt 4 or in EVAL.md; do not come back and rewrite this one.
 
-TODO: your answer to prompt 1.
+This is answered after in the git history because I quit it without saving :( 
+
+I chose the corpus because I am an avid video game enjoyer! I know a lot of Pokemon, but could always learn more and am always trying to understand the lore of different games, so I wanted to be able to see all of the different ways the games interact together and answer similar questions. It is just a great way for me to learn more and test my own trivia to see how the games interact together. 
+
+From my memory, my answer was that I thought that hybrid would do the best because it is able to understand and match the actual wording via bm25, but also put it together using natural language in dense. It makes the most sense that this would do the best because it finds key words and then is able to make human sense of them. I think that bm25 would do the worst because it is just focusing on the words and word matching, and Pokemon is so verbose and a lot of the characters and pokemon are similar, so it is easy to get tangled up in words very quickly.
 
 ---
 
