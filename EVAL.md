@@ -298,9 +298,11 @@ Which differences are distinguishable and which are not, at your gold-set size?
 Do the `hand` queries and the `claude` queries tell the same story?
 Did your prediction in `DECISIONS.md` prompt 1 hold?
 
-What is distinguishable is that bm25 and hybrid beat dense. Also that rerank beat bm25. However hybrid vs. bm25 is not distinguishable. 
+What is distinguishable is that bm25, rerank, and hybrid beat dense  and that rerank also beat bm25 and hybrid. However hybrid vs. bm25 is not distinguishable. This was all for 35 queries, and the MDD for that is about 0.11 to 0.22.
 
 Between the hand and claude queries, both tell the story that rerank is the highest and that dense and potion are the lowest. The difference is that bm25 for hand is ranked lower than it is by claude. 
+
+My prediction from prompt 1 did not hold, I thought that bm25 would do pretty bad but it did pretty well. I think this is because while pokemon and characters have similar traits, they have unique names and places and backstory that make it a lot easier to separate them. Also hybrid was not distinguishable from bm25, so that cannot be said.
 
 
 ---
