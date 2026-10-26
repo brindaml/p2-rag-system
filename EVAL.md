@@ -298,7 +298,7 @@ Which differences are distinguishable and which are not, at your gold-set size?
 Do the `hand` queries and the `claude` queries tell the same story?
 Did your prediction in `DECISIONS.md` prompt 1 hold?
 
-What is distinguishable is that bm25, rerank, and hybrid beat dense  and that rerank also beat bm25 and hybrid. However hybrid vs. bm25 is not distinguishable. This was all for 35 queries, and the MDD for that is about 0.11 to 0.22.
+What is distinguishable is that rerank and hybrid beat dense and that rerank also beat bm25 and hybrid. However hybrid vs. bm25 is not distinguishable and neither is bm25 vs dense. This was all for 35 queries, and the MDD for that is about 0.11 to 0.22.
 
 Between the hand and claude queries, both tell the story that rerank is the highest and that dense and potion are the lowest. The difference is that bm25 for hand is ranked lower than it is by claude. 
 
@@ -363,9 +363,9 @@ What did you change, what happened, and does the interval support the claim you 
 If the result is not distinguishable, say what size of effect your gold set could have seen.
 Read the queries at the top of each list in the second table, and say whether your change explains them.
 
-I changed the embedding model in dense to use potion-retrieval-32M instead of bge-small-en-v1.5. What happened between them is that overall, MRR@10 went from 0.691 to 0.646. This was broken down to paraphrase: 0.492 vs 0.359 (highest drop), identifier: 0.864 vs 0.864, and mixed: 0.905 vs 1.000.
-Unfortunately, the interval is not distinguishable, because it is from -.201 to .108. This does suggest that potion is lower mainly on paraphrasing, as my hypothesis had suggested, but this cannot be confirmed from the data. 
-The MDD was 0.224, and the gap was only 0.046, so I definitely needed more queries to be able to see a gap this small. 
+I changed the embedding model in dense to use potion-retrieval-32M instead of bge-small-en-v1.5. What happened between them is that overall, MRR@10 went from 0.706 to 0.646. This was broken down to paraphrase: 0.492 vs 0.359 (highest drop), identifier: 0.909 vs 0.864, and mixed: 0.905 vs 1.000.
+Unfortunately, the interval is not distinguishable, because it is from -.212 to .092. This does suggest that potion is lower mainly on paraphrasing, as my hypothesis had suggested, but this cannot be confirmed from the data. 
+The MDD was 0.220, and the gap was only 0.060, so I definitely needed more queries to be able to see a gap this small. 
 My changes explain some of the results from the queries. I suspected that because potion ignores the context, it would perform worse, and for example for h03, it read the word yellow and instead of matching that with a Pokemon (which was implied in context) it just matched the word itself. This happened again at c13, where it ignored the context and just matched "Mew", leaving the film part of the question out of it. It doesn't explain c21, where potion did better and found team rocket instantly, but it could be because of key words like "crime" that helped to support it. 
 
 
@@ -381,11 +381,14 @@ Then sort the failures by cause, for example a vocabulary mismatch, near-duplica
 | qid | what the best system returned | what was relevant | cause | what you would try |
 |---|---|---|---|---|
 | h09 | rerank returned team_skull, pokemon_colosseum, and pokemon_xd-_gale_of_darkness | The ones that were relevant were team_rocket, pokemon_firered_and_leafgreen and pokemon_heartgold_and_soulsilver | This is likely because of the lack of detail, there are a lot of villains in the Pokemon universe and without names or further specifications it was hard to pull the exact one I was thinking of. | Next time, I would try putting in more detail without giving away the answer, maybe a catch phrase or other relevant part of the villain to help guide the question more. |
-|---|---|---|---|---|
-| c08 | pokem | what was relevant | cause | what you would try |
-|---|---|---|---|---|
+| c08 | pokemon_legends-_arceus, kleavor, arceus | arceus, kleavor, pokemon_diamond_and_pearl, and pokemon_legends-_arceus which was added later | This was a wrong label, the top result was correct as it states the region, just very briefly. The gold set failed here, not the system. | I need to be more careful about checking topics before labeling instead of just looking at snippets. |
+| h08 | bm25 returned tetris_attack, puzzle_league, planet_puzzle_league | snorlax | The words road and blocking were never used in the article for snorlax, even though his description as a pokemon matched, it didn't match those words. Rerank got this, but not bm25. | I would try to be more specific in the query |
+| c11 | bm25 returned pokemon_x_and_y, pokemon_platinum, pokemon_video_game_series_competitive_play| pokemon_unite | Vocab mismatch, the query used the word five instead of the number 5 | Being verbose and accomdating to multiple styles of writing (numerical and words) |
+| h02 | bm25 returned mewtwo, dragonite, charizard | charizard | the word evolved and Pokemon is used frequently in other articles | Trying for specific differentiating words that would separate similar answers |
+| c16 | bm25 returned pokemon_ranger, pokemon_the_movie-_diancie_and_the_cocoon_of_destruction, lucario | lucario | Vocab mismatch, the query used the word control instead of manipulate | Being intentional about vocabulary used in queries when there are a lot of possible matches |
 
-TODO: add one row for each failure you analyzed, and write two or three sentences on the pattern you see across them.
+
+Overall, the pattern is that it is important to be very clear in paraphrase queries because there were a lot of mismatches there. This makes sense, because it the system is looking for specific words, you must be explicit and not ambigious on what you are trying to look for.
 
 ---
 
