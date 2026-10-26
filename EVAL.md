@@ -364,7 +364,12 @@ What did you change, what happened, and does the interval support the claim you 
 If the result is not distinguishable, say what size of effect your gold set could have seen.
 Read the queries at the top of each list in the second table, and say whether your change explains them.
 
-TODO: write the ablation: the one change, the hypothesis, the result and the claim.
+I changed the embedding model in dense to use potion-retrieval-32M instead of bge-small-en-v1.5. What happened between them is that overall, MRR@10 went from 0.691 to 0.646. This was broken down to paraphrase: 0.492 vs 0.359 (highest drop), identifier: 0.864 vs 0.864, and mixed: 0.905 vs 1.000.
+Unfortunately, the interval is not distinguishable, because it is from -.201 to .108. This does suggest that potion is lower mainly on paraphrasing, as my hypothesis had suggested, but this cannot be confirmed from the data. 
+The MDD was 0.224, and the gap was only 0.046, so I definitely needed more queries to be able to see a gap this small. 
+My changes explain some of the results from the queries. I suspected that because potion ignores the context, it would perform worse, and for example for h03, it read the word yellow and instead of matching that with a Pokemon (which was implied in context) it just matched the word itself. This happened again at c13, where it ignored the context and just matched "Mew", leaving the film part of the question out of it. It doesn't explain c21, where potion did better and found team rocket instantly, but it could be because of key words like "crime" that helped to support it. 
+
+
 
 ---
 
