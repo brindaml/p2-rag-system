@@ -187,11 +187,11 @@ Scores per system on your gold set.
 <!-- p2:begin own -->
 | System | Recall@10 | MRR@10 | nDCG@10 |
 | --- | ---: | ---: | ---: |
-| bm25 | 0.933 | 0.840 | 0.855 |
-| dense | 0.776 | 0.691 | 0.695 |
-| hybrid | 0.914 | 0.825 | 0.841 |
-| rerank | 0.971 | 0.957 | 0.955 |
-| ablation/dense_potion | 0.733 | 0.646 | 0.657 |
+| bm25 | 0.933 | 0.840 | 0.858 |
+| dense | 0.779 | 0.706 | 0.703 |
+| hybrid | 0.914 | 0.839 | 0.849 |
+| rerank | 0.971 | 0.971 | 0.963 |
+| ablation/dense_potion | 0.736 | 0.646 | 0.661 |
 
 35 judged queries; nDCG uses binary labels; a random ranking of the 226 documents would get recall@10 near 0.044.
 <!-- p2:end own -->
@@ -203,19 +203,19 @@ The same scores per query class.
 | --- | --- | ---: | ---: | ---: |
 | bm25 | Recall@10 | 1.000 | 0.863 | 1.000 |
 | bm25 | MRR@10 | 0.939 | 0.770 | 0.857 |
-| bm25 | nDCG@10 | 0.930 | 0.790 | 0.895 |
-| dense | Recall@10 | 0.833 | 0.647 | 1.000 |
-| dense | MRR@10 | 0.864 | 0.492 | 0.905 |
-| dense | nDCG@10 | 0.820 | 0.517 | 0.929 |
+| bm25 | nDCG@10 | 0.939 | 0.790 | 0.895 |
+| dense | Recall@10 | 0.841 | 0.647 | 1.000 |
+| dense | MRR@10 | 0.909 | 0.492 | 0.905 |
+| dense | nDCG@10 | 0.847 | 0.517 | 0.929 |
 | hybrid | Recall@10 | 1.000 | 0.824 | 1.000 |
-| hybrid | MRR@10 | 0.955 | 0.668 | 1.000 |
-| hybrid | nDCG@10 | 0.945 | 0.709 | 1.000 |
+| hybrid | MRR@10 | 1.000 | 0.668 | 1.000 |
+| hybrid | nDCG@10 | 0.970 | 0.709 | 1.000 |
 | rerank | Recall@10 | 1.000 | 0.941 | 1.000 |
-| rerank | MRR@10 | 0.955 | 0.941 | 1.000 |
-| rerank | nDCG@10 | 0.965 | 0.931 | 1.000 |
-| ablation/dense_potion | Recall@10 | 0.879 | 0.529 | 1.000 |
+| rerank | MRR@10 | 1.000 | 0.941 | 1.000 |
+| rerank | nDCG@10 | 0.989 | 0.931 | 1.000 |
+| ablation/dense_potion | Recall@10 | 0.886 | 0.529 | 1.000 |
 | ablation/dense_potion | MRR@10 | 0.864 | 0.359 | 1.000 |
-| ablation/dense_potion | nDCG@10 | 0.837 | 0.399 | 1.000 |
+| ablation/dense_potion | nDCG@10 | 0.850 | 0.399 | 1.000 |
 <!-- p2:end own-classes -->
 
 The same scores for the queries you wrote yourself (`hand`) and the ones a model drafted (`claude`), with the difference between the two groups and its interval.
@@ -226,19 +226,19 @@ Once both groups have queries, the table also says whether `bm25`'s lead over `d
 | --- | --- | ---: | ---: | ---: | ---: | --- |
 | bm25 | Recall@10 | 0.867 | 0.960 | -0.093 | [-0.327, +0.080] | not distinguishable |
 | bm25 | MRR@10 | 0.658 | 0.913 | -0.255 | [-0.502, -0.010] | claude higher |
-| bm25 | nDCG@10 | 0.707 | 0.914 | -0.208 | [-0.432, +0.003] | not distinguishable |
-| dense | Recall@10 | 0.600 | 0.847 | -0.247 | [-0.580, +0.080] | not distinguishable |
-| dense | MRR@10 | 0.533 | 0.754 | -0.221 | [-0.550, +0.109] | not distinguishable |
-| dense | nDCG@10 | 0.538 | 0.757 | -0.220 | [-0.535, +0.097] | not distinguishable |
+| bm25 | nDCG@10 | 0.707 | 0.919 | -0.212 | [-0.436, +0.001] | not distinguishable |
+| dense | Recall@10 | 0.600 | 0.850 | -0.250 | [-0.580, +0.080] | not distinguishable |
+| dense | MRR@10 | 0.533 | 0.774 | -0.241 | [-0.567, +0.089] | not distinguishable |
+| dense | nDCG@10 | 0.538 | 0.769 | -0.232 | [-0.546, +0.084] | not distinguishable |
 | hybrid | Recall@10 | 0.800 | 0.960 | -0.160 | [-0.420, +0.080] | not distinguishable |
-| hybrid | MRR@10 | 0.750 | 0.854 | -0.104 | [-0.394, +0.156] | not distinguishable |
-| hybrid | nDCG@10 | 0.761 | 0.874 | -0.112 | [-0.392, +0.128] | not distinguishable |
+| hybrid | MRR@10 | 0.750 | 0.874 | -0.124 | [-0.410, +0.136] | not distinguishable |
+| hybrid | nDCG@10 | 0.761 | 0.885 | -0.123 | [-0.403, +0.118] | not distinguishable |
 | rerank | Recall@10 | 0.900 | 1.000 | -0.100 | [-0.300, +0.000] | not distinguishable |
-| rerank | MRR@10 | 0.900 | 0.980 | -0.080 | [-0.300, +0.060] | not distinguishable |
-| rerank | nDCG@10 | 0.900 | 0.978 | -0.078 | [-0.288, +0.043] | not distinguishable |
-| ablation/dense_potion | Recall@10 | 0.650 | 0.767 | -0.117 | [-0.440, +0.193] | not distinguishable |
+| rerank | MRR@10 | 0.900 | 1.000 | -0.100 | [-0.300, +0.000] | not distinguishable |
+| rerank | nDCG@10 | 0.900 | 0.988 | -0.088 | [-0.295, +0.023] | not distinguishable |
+| ablation/dense_potion | Recall@10 | 0.650 | 0.770 | -0.120 | [-0.440, +0.190] | not distinguishable |
 | ablation/dense_potion | MRR@10 | 0.567 | 0.677 | -0.111 | [-0.437, +0.218] | not distinguishable |
-| ablation/dense_potion | nDCG@10 | 0.591 | 0.683 | -0.092 | [-0.414, +0.227] | not distinguishable |
+| ablation/dense_potion | nDCG@10 | 0.591 | 0.689 | -0.098 | [-0.421, +0.222] | not distinguishable |
 
 The hand and claude queries are different queries, so the interval of hand minus claude comes from resampling the queries within each group (10,000 times), not from pairing them.
 
@@ -246,9 +246,9 @@ Do model-written queries favor keyword search? bm25's lead over dense (bm25 minu
 
 | Metric | Lead on claude | Lead on hand | Claude minus hand | 95% interval | Reading |
 | --- | ---: | ---: | ---: | ---: | --- |
-| Recall@10 | +0.113 | +0.267 | -0.153 | [-0.473, +0.133] | not distinguishable |
-| MRR@10 | +0.159 | +0.125 | +0.034 | [-0.332, +0.378] | not distinguishable |
-| nDCG@10 | +0.157 | +0.169 | -0.012 | [-0.341, +0.298] | not distinguishable |
+| Recall@10 | +0.110 | +0.267 | -0.157 | [-0.473, +0.130] | not distinguishable |
+| MRR@10 | +0.139 | +0.125 | +0.014 | [-0.348, +0.358] | not distinguishable |
+| nDCG@10 | +0.149 | +0.169 | -0.020 | [-0.348, +0.289] | not distinguishable |
 
 Mean content-word overlap, the share of a query's content words found in its best relevant document: hand 0.83 (10 queries), claude 0.91 (25 queries).
 
@@ -260,36 +260,36 @@ Differences between every pair of systems.
 <!-- p2:begin own-pairs -->
 | Comparison | Metric | Mean difference | 95% interval | MDD | Reading |
 | --- | --- | ---: | ---: | ---: | --- |
-| dense minus bm25 | Recall@10 | -0.157 | [-0.295, -0.024] | 0.198 | bm25 higher |
-| dense minus bm25 | MRR@10 | -0.149 | [-0.293, -0.010] | 0.207 | bm25 higher |
-| dense minus bm25 | nDCG@10 | -0.160 | [-0.290, -0.033] | 0.189 | bm25 higher |
+| dense minus bm25 | Recall@10 | -0.155 | [-0.293, -0.021] | 0.198 | bm25 higher |
+| dense minus bm25 | MRR@10 | -0.135 | [-0.278, +0.002] | 0.205 | not distinguishable |
+| dense minus bm25 | nDCG@10 | -0.155 | [-0.285, -0.028] | 0.189 | bm25 higher |
 | hybrid minus bm25 | Recall@10 | -0.019 | [-0.105, +0.067] | 0.127 | not distinguishable |
-| hybrid minus bm25 | MRR@10 | -0.016 | [-0.107, +0.077] | 0.133 | not distinguishable |
-| hybrid minus bm25 | nDCG@10 | -0.014 | [-0.087, +0.060] | 0.106 | not distinguishable |
-| hybrid minus dense | Recall@10 | +0.138 | [+0.043, +0.252] | 0.156 | hybrid higher |
+| hybrid minus bm25 | MRR@10 | -0.002 | [-0.089, +0.088] | 0.127 | not distinguishable |
+| hybrid minus bm25 | nDCG@10 | -0.009 | [-0.081, +0.065] | 0.105 | not distinguishable |
+| hybrid minus dense | Recall@10 | +0.136 | [+0.043, +0.250] | 0.156 | hybrid higher |
 | hybrid minus dense | MRR@10 | +0.133 | [+0.042, +0.238] | 0.144 | hybrid higher |
-| hybrid minus dense | nDCG@10 | +0.147 | [+0.061, +0.244] | 0.133 | hybrid higher |
+| hybrid minus dense | nDCG@10 | +0.146 | [+0.060, +0.243] | 0.133 | hybrid higher |
 | rerank minus bm25 | Recall@10 | +0.038 | [-0.038, +0.133] | 0.126 | not distinguishable |
-| rerank minus bm25 | MRR@10 | +0.117 | [+0.019, +0.229] | 0.151 | rerank higher |
-| rerank minus bm25 | nDCG@10 | +0.100 | [+0.014, +0.200] | 0.135 | rerank higher |
-| rerank minus dense | Recall@10 | +0.195 | [+0.081, +0.324] | 0.182 | rerank higher |
+| rerank minus bm25 | MRR@10 | +0.131 | [+0.040, +0.236] | 0.143 | rerank higher |
+| rerank minus bm25 | nDCG@10 | +0.105 | [+0.019, +0.204] | 0.134 | rerank higher |
+| rerank minus dense | Recall@10 | +0.193 | [+0.079, +0.321] | 0.182 | rerank higher |
 | rerank minus dense | MRR@10 | +0.266 | [+0.137, +0.405] | 0.196 | rerank higher |
-| rerank minus dense | nDCG@10 | +0.261 | [+0.141, +0.390] | 0.183 | rerank higher |
+| rerank minus dense | nDCG@10 | +0.260 | [+0.140, +0.390] | 0.183 | rerank higher |
 | rerank minus hybrid | Recall@10 | +0.057 | [+0.000, +0.143] | 0.112 | not distinguishable |
 | rerank minus hybrid | MRR@10 | +0.133 | [+0.040, +0.240] | 0.146 | rerank higher |
 | rerank minus hybrid | nDCG@10 | +0.114 | [+0.031, +0.213] | 0.132 | rerank higher |
-| ablation/dense_potion minus bm25 | Recall@10 | -0.200 | [-0.348, -0.062] | 0.210 | bm25 higher |
+| ablation/dense_potion minus bm25 | Recall@10 | -0.198 | [-0.345, -0.057] | 0.209 | bm25 higher |
 | ablation/dense_potion minus bm25 | MRR@10 | -0.195 | [-0.342, -0.052] | 0.210 | bm25 higher |
-| ablation/dense_potion minus bm25 | nDCG@10 | -0.198 | [-0.336, -0.066] | 0.196 | bm25 higher |
+| ablation/dense_potion minus bm25 | nDCG@10 | -0.197 | [-0.335, -0.065] | 0.196 | bm25 higher |
 | ablation/dense_potion minus dense | Recall@10 | -0.043 | [-0.171, +0.071] | 0.176 | not distinguishable |
-| ablation/dense_potion minus dense | MRR@10 | -0.046 | [-0.201, +0.108] | 0.224 | not distinguishable |
-| ablation/dense_potion minus dense | nDCG@10 | -0.038 | [-0.179, +0.097] | 0.198 | not distinguishable |
-| ablation/dense_potion minus hybrid | Recall@10 | -0.181 | [-0.310, -0.071] | 0.172 | hybrid higher |
-| ablation/dense_potion minus hybrid | MRR@10 | -0.179 | [-0.305, -0.066] | 0.172 | hybrid higher |
-| ablation/dense_potion minus hybrid | nDCG@10 | -0.184 | [-0.302, -0.083] | 0.158 | hybrid higher |
-| ablation/dense_potion minus rerank | Recall@10 | -0.238 | [-0.376, -0.114] | 0.193 | rerank higher |
-| ablation/dense_potion minus rerank | MRR@10 | -0.311 | [-0.463, -0.167] | 0.218 | rerank higher |
-| ablation/dense_potion minus rerank | nDCG@10 | -0.298 | [-0.440, -0.168] | 0.199 | rerank higher |
+| ablation/dense_potion minus dense | MRR@10 | -0.060 | [-0.212, +0.092] | 0.220 | not distinguishable |
+| ablation/dense_potion minus dense | nDCG@10 | -0.042 | [-0.184, +0.091] | 0.197 | not distinguishable |
+| ablation/dense_potion minus hybrid | Recall@10 | -0.179 | [-0.307, -0.071] | 0.171 | hybrid higher |
+| ablation/dense_potion minus hybrid | MRR@10 | -0.193 | [-0.312, -0.088] | 0.163 | hybrid higher |
+| ablation/dense_potion minus hybrid | nDCG@10 | -0.188 | [-0.304, -0.087] | 0.158 | hybrid higher |
+| ablation/dense_potion minus rerank | Recall@10 | -0.236 | [-0.371, -0.114] | 0.192 | rerank higher |
+| ablation/dense_potion minus rerank | MRR@10 | -0.326 | [-0.473, -0.188] | 0.209 | rerank higher |
+| ablation/dense_potion minus rerank | nDCG@10 | -0.302 | [-0.444, -0.172] | 0.199 | rerank higher |
 
 The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
 <!-- p2:end own-pairs -->
@@ -318,18 +318,18 @@ Hypothesis (written before the run): I believe that the potion will score lower 
 <!-- p2:begin own-ablation -->
 | Comparison | Metric | Mean difference | 95% interval | MDD | Reading |
 | --- | --- | ---: | ---: | ---: | --- |
-| ablation/dense_potion minus bm25 | Recall@10 | -0.200 | [-0.348, -0.062] | 0.210 | bm25 higher |
+| ablation/dense_potion minus bm25 | Recall@10 | -0.198 | [-0.345, -0.057] | 0.209 | bm25 higher |
 | ablation/dense_potion minus bm25 | MRR@10 | -0.195 | [-0.342, -0.052] | 0.210 | bm25 higher |
-| ablation/dense_potion minus bm25 | nDCG@10 | -0.198 | [-0.336, -0.066] | 0.196 | bm25 higher |
+| ablation/dense_potion minus bm25 | nDCG@10 | -0.197 | [-0.335, -0.065] | 0.196 | bm25 higher |
 | ablation/dense_potion minus dense | Recall@10 | -0.043 | [-0.171, +0.071] | 0.176 | not distinguishable |
-| ablation/dense_potion minus dense | MRR@10 | -0.046 | [-0.201, +0.108] | 0.224 | not distinguishable |
-| ablation/dense_potion minus dense | nDCG@10 | -0.038 | [-0.179, +0.097] | 0.198 | not distinguishable |
-| ablation/dense_potion minus hybrid | Recall@10 | -0.181 | [-0.310, -0.071] | 0.172 | hybrid higher |
-| ablation/dense_potion minus hybrid | MRR@10 | -0.179 | [-0.305, -0.066] | 0.172 | hybrid higher |
-| ablation/dense_potion minus hybrid | nDCG@10 | -0.184 | [-0.302, -0.083] | 0.158 | hybrid higher |
-| ablation/dense_potion minus rerank | Recall@10 | -0.238 | [-0.376, -0.114] | 0.193 | rerank higher |
-| ablation/dense_potion minus rerank | MRR@10 | -0.311 | [-0.463, -0.167] | 0.218 | rerank higher |
-| ablation/dense_potion minus rerank | nDCG@10 | -0.298 | [-0.440, -0.168] | 0.199 | rerank higher |
+| ablation/dense_potion minus dense | MRR@10 | -0.060 | [-0.212, +0.092] | 0.220 | not distinguishable |
+| ablation/dense_potion minus dense | nDCG@10 | -0.042 | [-0.184, +0.091] | 0.197 | not distinguishable |
+| ablation/dense_potion minus hybrid | Recall@10 | -0.179 | [-0.307, -0.071] | 0.171 | hybrid higher |
+| ablation/dense_potion minus hybrid | MRR@10 | -0.193 | [-0.312, -0.088] | 0.163 | hybrid higher |
+| ablation/dense_potion minus hybrid | nDCG@10 | -0.188 | [-0.304, -0.087] | 0.158 | hybrid higher |
+| ablation/dense_potion minus rerank | Recall@10 | -0.236 | [-0.371, -0.114] | 0.192 | rerank higher |
+| ablation/dense_potion minus rerank | MRR@10 | -0.326 | [-0.473, -0.188] | 0.209 | rerank higher |
+| ablation/dense_potion minus rerank | nDCG@10 | -0.302 | [-0.444, -0.172] | 0.199 | rerank higher |
 
 The interval is a paired bootstrap (10,000 resamples of the queries); MDD is the smallest difference this many queries detect 80% of the time.
 <!-- p2:end own-ablation -->
@@ -338,7 +338,7 @@ The queries your ablation helped and hurt, against the system it varies, by reci
 `p2 score` finds that system from a line such as `BASE = "bm25"` in your variant's file, or else from its name: `bm25_lab` varies `bm25`.
 
 <!-- p2:begin own-ablation-queries -->
-ablation/dense_potion against dense (BASE = "dense" in p2/retrievers/dense_potion.py): it helped 6 queries, hurt 8 and left 21 unchanged.
+ablation/dense_potion against dense (BASE = "dense" in p2/retrievers/dense_potion.py): it helped 5 queries, hurt 8 and left 22 unchanged.
 
 | Query | Class | Origin | dense RR | ablation/dense_potion RR | Change | Effect |
 | --- | --- | --- | ---: | ---: | ---: | --- |
@@ -346,7 +346,6 @@ ablation/dense_potion against dense (BASE = "dense" in p2/retrievers/dense_potio
 | c21 | paraphrase | claude | 0.111 | 1.000 | +0.889 | helped |
 | c07 | paraphrase | claude | 0.250 | 1.000 | +0.750 | helped |
 | h04 | mixed | hand | 0.333 | 1.000 | +0.667 | helped |
-| c08 | identifier | claude | 0.500 | 1.000 | +0.500 | helped |
 | h10 | paraphrase | hand | 0.000 | 0.167 | +0.167 | helped |
 | c10 | identifier | claude | 1.000 | 0.000 | -1.000 | hurt |
 | c13 | paraphrase | claude | 1.000 | 0.000 | -1.000 | hurt |
@@ -380,6 +379,10 @@ Take at least five, and read what the system returned next to what was relevant.
 Then sort the failures by cause, for example a vocabulary mismatch, near-duplicate documents, a chunk that cut the answer in half, a query that is ambiguous, or a label that was wrong, because sometimes the gold set is what failed.
 
 | qid | what the best system returned | what was relevant | cause | what you would try |
+|---|---|---|---|---|
+| h09 | rerank returned team_skull, pokemon_colosseum, and pokemon_xd-_gale_of_darkness | The ones that were relevant were team_rocket, pokemon_firered_and_leafgreen and pokemon_heartgold_and_soulsilver | This is likely because of the lack of detail, there are a lot of villains in the Pokemon universe and without names or further specifications it was hard to pull the exact one I was thinking of. | Next time, I would try putting in more detail without giving away the answer, maybe a catch phrase or other relevant part of the villain to help guide the question more. |
+|---|---|---|---|---|
+| c08 | pokem | what was relevant | cause | what you would try |
 |---|---|---|---|---|
 
 TODO: add one row for each failure you analyzed, and write two or three sentences on the pattern you see across them.
@@ -452,7 +455,7 @@ Every pair of systems on the same queries where at least one calls Claude, the o
 | shared practice: dense minus rerank_c10 | 20 | -0.138 | [-0.333, +0.058] | 5,936 | 3.0 | not distinguishable |
 | shared practice: hybrid minus rerank_c10 | 20 | -0.229 | [-0.406, -0.059] | 5,936 | 3.0 | rerank_c10 higher |
 | shared practice: rerank_c10 minus rerank | 20 | -0.100 | [-0.225, +0.000] | 3,280 | 1.9 | not distinguishable |
-| own: bm25 minus rerank | 35 | -0.117 | [-0.229, -0.019] | 9,275 | 3.1 | rerank higher |
+| own: bm25 minus rerank | 35 | -0.131 | [-0.236, -0.040] | 9,275 | 3.1 | rerank higher |
 | own: dense minus rerank | 35 | -0.266 | [-0.405, -0.137] | 9,275 | 3.1 | rerank higher |
 | own: hybrid minus rerank | 35 | -0.133 | [-0.240, -0.040] | 9,275 | 3.1 | rerank higher |
 

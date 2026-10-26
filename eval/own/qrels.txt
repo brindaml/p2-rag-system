@@ -29,6 +29,7 @@ c07 0 pokemon_colosseum 1
 c08 0 arceus 1
 c08 0 kleavor 1
 c08 0 pokemon_diamond_and_pearl 1
+c08 0 pokemon_legends-_arceus 1
 c09 0 pokemon_legends-_arceus 1
 c10 0 pokemon_unite 1
 c11 0 pokemon_unite 1
