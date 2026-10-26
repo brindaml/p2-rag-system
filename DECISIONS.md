@@ -73,8 +73,8 @@ It could be a mean over a small query class, a difference whose interval include
 What would have to be true for you to trust it?
 Did you do anything to test it, and what did that show?
 
-The rerank MRR@10 was 0.971 on Pokemon, which is flagged as a score that is too easy because it is over 0.95. I had an issue already with c08 on the gold set, so there could be human error in labeling the gold set properly, which is partially why I do not trust it. For this to be true, I would have to ask more difficult questions around the same topic, and then also need to check the full article when doing the labeling, rather than just the snippet. 
-This was tested when I fixed c08, where rerank went from 0.957 to 0.971 and bm25 vs dense was no longer distinguishable, showing that one change in the gold set will change the numbers a lot.
+The rerank MRR@10 was 0.971 on Pokemon, which is flagged as a score that is too easy because it is over 0.95. I had an issue already with c08 on the gold set, so there could be human error in labeling the gold set properly, which is partially why I do not trust it. For me to trust it, I would have to ask more difficult questions around the same topic, and then also need to check the full article when doing the labeling, rather than just the snippet. 
+This was tested when I fixed c08, where rerank went from 0.957 to 0.971 and bm25 vs dense was no longer distinguishable, showing that one change in the gold set will be able to change the conclusions overall.
 
 ---
 
