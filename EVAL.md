@@ -500,9 +500,9 @@ I made a copy of the reranker but changed it to see the top 10 candidates instea
 
 stretch-cost
 
-The interval lets me claim that I am saving tokens per query (3280 per query) and time per query (1.9 seconds), and that the interval is [-0.225, 0], MRR@10 dropped from 0.800 to 0.700 which is not distinguishable. It just tells me that it is cheaper, I can't claim if it's worse or not. I can claim that even the cheaper rerank_c10 does better than hybrid, but isn't distinguishable for bm25 or dense. As of now, I would not make this trade because while it saves tokens, it doesn't make sense to drop so much and have it be not distinguishable anymore, but further testing would validate this.
+The interval lets me claim that I am saving tokens per query (3280 per query) and time per query (1.9 seconds), and that the interval is [-0.225, 0], MRR@10 dropped from 0.800 to 0.700 which is not distinguishable. It just tells me that it is cheaper, I can't claim if it's worse or not. I can claim that even the cheaper rerank_c10 does better than hybrid, but isn't distinguishable for bm25 or dense. As of now, I would not make this trade because while it saves tokens, it doesn't make sense to drop so much and have it be not distinguishable anymore, but further testing would validate this. This would make sense in a situation where the cost and speed matter a lot, like a trivia game where finding the information quickly is more important than completely accurately, but you wouldn't want to use this where accuracy matters, like anything that is truly critical
 
-In the future, I would want to run it on 15 candidates to figure out optimal amounts for cost saving but also more accurate answers. I also would want to run this with more queries to get a better baseline. I want the interfval to not touch zero, which is when I would know if the drop is actually real.
+In the future, I would want to run it on 15 candidates to figure out optimal amounts for cost saving but also more accurate answers. I also would want to run this with more queries to get a better baseline. I want the interval to not touch zero, which is when I would know if the drop is actually real.
 
 
 ---
