@@ -143,11 +143,9 @@ The check proves a quote is a real piece of the chunk and cannot prove that it s
 The system that answered was rerank, because it was the system that did the best out of all of them. 
 I did not change anything in prompts/answer.txt, so everything 8/8 were verified and 4/4 were declined. 
 
-For a02, the quote really does support the claim next to it.
-For a04, the quote really does support the claim.
-For a07, the quote really does support the claim as well.
-
-TODO: double-check the audit before submitting: cover both claims in a04 and a07, and give a reason for each verdict.
+For a02, the quote really does support the claim next to it, nothing changes anything for this question and the document perfectly matches the claim.
+For a04, the first quote really does support the claim. The second quote supports the second claim as well.
+For a07, both quotes answer the question the exact same way with the exact same verbiage, so both support the claim.
 
 
 ---
