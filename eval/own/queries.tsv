@@ -2,3 +2,29 @@
 # origin is hand when you wrote the query yourself and claude when a model drafted it; at least 10 must be hand.
 # class is a word you choose, for example identifier, paraphrase or mixed as in the shared sets; scores are reported per class.
 # Lines that start with # are comments, so delete these lines or keep them, as you like.
+# c01-c25 drafted by Claude, each from one corpus article; relevance is judged by the student.
+c01	identifier	Who developed Pokémon Snap for the Nintendo 64?	claude
+c02	paraphrase	the N64 game where you talk to Pikachu through a microphone	claude
+c03	identifier	Which company developed Pokémon Mystery Dungeon: Red Rescue Team?	claude
+c04	paraphrase	roguelike game where you wake up turned into a Pokémon with amnesia	claude
+c05	identifier	When was the Pokémon Trading Card Game released for the Game Boy Color?	claude
+c06	mixed	How many copies did Pokémon Stadium sell on the Nintendo 64?	claude
+c07	paraphrase	GameCube game where you steal other trainers' Pokémon and purify corrupted ones	claude
+c08	identifier	What region is Pokémon Legends: Arceus set in?	claude
+c09	paraphrase	Switch game set in the past where you explore open areas to fill the Pokédex	claude
+c10	identifier	Who developed Pokémon Unite?	claude
+c11	paraphrase	five versus five Pokémon team battle game on phones	claude
+c12	mixed	When did the Detective Pikachu game come out worldwide on 3DS?	claude
+c13	paraphrase	the first animated Pokémon film about a cloned Pokémon	claude
+c14	mixed	Why is Mewtwo called the Genetic Pokémon?	claude
+c15	paraphrase	the pink balloon Pokémon that sings people to sleep	claude
+c16	paraphrase	Pokémon that can sense and control life energy	claude
+c17	identifier	Who created Gengar?	claude
+c18	mixed	How many different Pokémon can Eevee evolve into?	claude
+c19	paraphrase	useless fish Pokémon that evolves into a powerful sea serpent	claude
+c20	identifier	Which city's gym does Misty run?	claude
+c21	paraphrase	the crime group whose bumbling trio keeps failing to steal Pokémon	claude
+c22	paraphrase	a Pokémon app that rewards you for sleeping	claude
+c23	identifier	What console was Pokémon Puzzle League released on?	claude
+c24	mixed	What is the name of the island in Pokémon Masters EX?	claude
+c25	paraphrase	Pokémon that only does damage after being attacked and belongs to Jessie	claude
