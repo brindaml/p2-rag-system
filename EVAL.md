@@ -401,7 +401,7 @@ Did the winner change between the shared corpus and yours?
 Why, or why not: what is different about the two collections (document length, vocabulary, identifiers, near-duplicates, how the queries were written), and which of your explanations did you test and which are guesses?
 Say what 20 queries on one side and your gold-set size on the other cannot support.
 
-The winner did not change, rerank was first on both by a distinguishably large amount. However, originally bm25, dense, and hybrid were tied, but for the Pokemon ones, bm25 and hybrid beat dense.
+The winner did not change, rerank was first on both by a distinguishably large amount. However, originally bm25, dense, and hybrid were tied, but for the Pokemon ones, hybrid beat dense and bm25 beat dense on recall.
 This is likely because of a couple reasons, one being that the unique names in Pokemon favor bm25. This is kind of tested on the identifier queries, where bm25 was at 1.0, but the exact reason why isn't tested. Additionally, for the claude queries there was a lot more specific language copied from the articles, which made it easier to find exact wording, vs the human ones had more ambiguous vocabulary, but this led to a not distinguishable answer. 
 With 20 queries, bm25, vs dense vs hybrid was not distinguishable because the gaps were smaller than the MDD of 0.17 to 0.42. 
 With the 35 queries, the MDD was 0.11 to 0.22 and the potion gap was below it at 0.060.
